@@ -1,0 +1,160 @@
+/*
+  * PHP_auth_register (https://github.com/chandrakant11/php_auth_register)
+*/
+
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #e8eef7;
+}
+
+.heading h2 {
+	font-size: 1.75rem;
+	font-style: italic;
+}
+
+.home-link p {
+	font-size: 1.5rem;
+}
+
+.home-link p a {
+	font-style: italic;
+	text-decoration: underline;
+}
+
+h2 span:nth-child(1) {
+	-webkit-animation: span1 3s infinite;
+	animation: span1 3s infinite;
+}
+h2 span:nth-child(2) {
+	-webkit-animation: span2 3s infinite;
+	animation: span2 3s infinite;
+}
+h2 span:nth-child(3) {
+	-webkit-animation: span3 3s infinite;
+	animation: span3 3s infinite;
+}
+
+-webkit-@keyframes span1 {
+	0% {
+		opacity: 1;
+	}
+	20% {
+		opacity: 1;
+	}
+	40% {
+		opacity: 1;
+	}
+	60% {
+		opacity: 1;
+	}
+	80% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+@keyframes span1 {
+	0% {
+		opacity: 1;
+	}
+	20% {
+		opacity: 1;
+	}
+	40% {
+		opacity: 1;
+	}
+	60% {
+		opacity: 1;
+	}
+	80% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+-webkit-@keyframes span2 {
+	0% {
+		opacity: 0;
+	}
+	20% {
+		opacity: 0;
+	}
+	40% {
+		opacity: 1;
+	}
+	60% {
+		opacity: 1;
+	}
+	80% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+@keyframes span2 {
+	0% {
+		opacity: 0;
+	}
+	20% {
+		opacity: 0;
+	}
+	40% {
+		opacity: 1;
+	}
+	60% {
+		opacity: 1;
+	}
+	80% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+-webkit-@keyframes span3 {
+	0% {
+		opacity: 0;
+	}
+	20% {
+		opacity: 0;
+	}
+	40% {
+		opacity: 0;
+	}
+	60% {
+		opacity: 1;
+	}
+	80% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+@keyframes span3 {
+	0% {
+		opacity: 0;
+	}
+	20% {
+		opacity: 0;
+	}
+	40% {
+		opacity: 0;
+	}
+	60% {
+		opacity: 1;
+	}
+	80% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}

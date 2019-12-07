@@ -1,0 +1,11 @@
+/*
+  * PHP_auth_register (https://github.com/chandrakant11/php_auth_register)
+*/
+
+.modal .form .btn-group .btn {
+	padding: .5rem 0;
+}
+
+.modal .modal-footer > .alert{
+	margin: 0;
+}
